@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <title>Create your team</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -11,11 +12,36 @@
   </head>
 
   <body>
-    <h1>This will show</h1>
+    <h1 id="heading">This will show</h1>
+    <div class="player-container">
+      <form class="player-input">
+        <h3>Recruit your player</h3>
 
-    <div id="page-banner">
-      <img src="https://images4.alphacoders.com/476/thumb-350-47698.png" />
+        <input
+          id="player-name"
+          type="text"
+          name="name"
+          value=""
+          placeholder="Enter player name"
+          class="name-input"
+        />
+        <br />
+        <input
+          id="player-image"
+          type="text"
+          name="image"
+          value=""
+          placeholder="Enter player image"
+          class="image-input"
+        />
+        <br />
+        <input
+          type="submit"
+          name="submit"
+          value="Create Player"
+          class="submit"
+        />
+      </form>
     </div>
-    <p>My dog does not like to walk in the rain</p>
   </body>
 </html>
