@@ -1,19 +1,22 @@
 {
-  "posts": [
+  "players": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Luka Modric",
+      "image": "https://static.wikia.nocookie.net/fifa/images/3/37/Luka_Modri%C4%87.jpg/revision/latest?cb=20180726185804",
+      "goals": 6
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "2nd Luka Modric",
+      "image": "https://static.wikia.nocookie.net/fifa/images/3/37/Luka_Modri%C4%87.jpg/revision/latest?cb=20180726185804",
+      "goals": 6
+    },
+    {
+      "id": 3,
+      "name": "3rd Luka Modric",
+      "image": "https://static.wikia.nocookie.net/fifa/images/3/37/Luka_Modri%C4%87.jpg/revision/latest?cb=20180726185804",
+      "goals": 7
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
