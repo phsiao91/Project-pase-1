@@ -88,6 +88,7 @@ function playerCard(players) {
 function increaseGoals(players) {
     const goalsNumber = event.target.previousElementSibling; //typo 'previos'
     console.log(goalsNumber)
+    console.log(players.id)
     const goals = parseInt(++players.goals)
     fetch(`http://localhost:3000/players/${players.id}`, {
         method:'PATCH',
