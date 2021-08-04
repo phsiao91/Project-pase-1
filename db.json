@@ -4,6 +4,7 @@
       "id": 1,
       "name": "Luka Modric",
       "image": "https://static.wikia.nocookie.net/fifa/images/3/37/Luka_Modri%C4%87.jpg/revision/latest?cb=20180726185804",
+<<<<<<< HEAD
       "goals": 6
     },
     {
@@ -17,6 +18,9 @@
       "name": "3rd Luka Modric",
       "image": "https://static.wikia.nocookie.net/fifa/images/3/37/Luka_Modri%C4%87.jpg/revision/latest?cb=20180726185804",
       "goals": 7
+=======
+      "goals": 3
+>>>>>>> main
     }
   ]
 }
