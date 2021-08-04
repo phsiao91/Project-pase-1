@@ -12,7 +12,7 @@ topDisplay.src = 'https://gameonfw.com/wp-content/uploads/2016/04/game-on-soccer
 h1.appendChild(topDisplay)
 
 function getPlayers() {
-    fetch('https://www.easports.com/fifa/ultimate-team/api/fut/item')
+    fetch('www.themealdb.com/api/json/v1/1/lookup.php?i=52772')
     .then(res => res.json())
     .then(players => {
         players.forEach(playerCard)
