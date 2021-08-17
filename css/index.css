@@ -6,7 +6,9 @@
   height: 25rem;
   display: inline-grid;
   margin: 1rem 2rem;
-  box-shadow: 3px 4px #e04b52;
+  box-shadow: 3px 4px rgb(56, 55, 73);
+  background-color: rgb(238, 144, 233);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqcj7pwkfGAPqdG-K0RBRvIo_iiOmD2xIOw&usqp=CAU");
 }
 h1 {
   font-style: oblique;
@@ -41,8 +43,9 @@ body {
   padding: 40px;
   box-sizing: border-box;
   background: plum;
-  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  box-shadow: 14px 14px 20px #d1cbcb, -14px -14px 20px #d1cbcb;
 }
+
 h3,
 input,
 button {
@@ -68,4 +71,17 @@ h2 {
 .submit {
   color: hotpink;
   font-style: italic;
+}
+
+.player-input {
+  align-items: center;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(0, 108, 209);
+}
+
+body {
+  background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/fifa-fut-20-hub-fifa-texture-section-background-desktop-tablet-01-ps4-en-03aug19?$native$");
 }
